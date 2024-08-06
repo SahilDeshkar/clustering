@@ -54,14 +54,14 @@ if uploaded_file is not None:
         kmeans.fit(x)
         wcss.append(kmeans.inertia_)
 
-    st.set_option('deprecation.showPyplotGlobalUse', False)
-    plt.figure(figsize=(10, 5))
-    sns.set()
-    plt.plot(range(1, 11), wcss)
-    plt.title('The Elbow Point Graph')
-    plt.xlabel('Number of clusters')
-    plt.ylabel('WCSS')
-    st.pyplot()
+   # st.set_option('deprecation.showPyplotGlobalUse', False)
+    #plt.figure(figsize=(10, 5))
+    #sns.set()
+    #plt.plot(range(1, 11), wcss)
+    #plt.title('The Elbow Point Graph')
+    #plt.xlabel('Number of clusters')
+    #plt.ylabel('WCSS')
+    #st.pyplot()
 
     # Choose the number of clusters
     st.write("### Choose the Number of Clusters")
