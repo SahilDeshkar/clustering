@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 import io
 
 # Set the title of the app
-st.title("K-means Clustering of Mall Customers")
+st.title("Clustering of Mall Customers")
 
 # Upload the dataset
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
